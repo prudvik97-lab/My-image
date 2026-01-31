@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prudvi | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="nav-container">
+        <div class="logo">Prudvi</div>
+        <ul>
+            <li><a href="#" onclick="showHome()">Home</a></li>
+            <li><a href="#" onclick="showAbout()">About</a></li>
+            <li><a href="#" onclick="showProjects()">Projects</a></li>
+            <li><a href="#" onclick="showExperience()">Experience</a></li>
+            <li><a href="#" onclick="showCertificates()">Certificates</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Home -->
+<div id="home" class="section" style="display:block;">
+    <div class="home">
+        <div class="home-text">
+            <h1>Hi There &#128075;</h1>
+            <h2>I'm Prudvi Krishna Rayapati</h2>
+            <p>
+                I'm a Full Stack Python Developer with a strong interest in <br>
+                web development and data analysis. I have built a complete <br>
+                college website called <b>Digital College Portal</b> and worked on <br>
+                Exploratory Data Analysis projects including <br> 
+                <b>Play Store Analysis</b> and <b>E-commerce Sales Analysis</b>. <br>
+                <br><br>
+                I work with HTML, CSS, JavaScript, Python, Django, MySQL, <br> 
+                NumPy, and Pandas to build reliable and user-friendly applications. <br>
+            </p>
+        </div>
+
+        <img src="./Prudvi.png.jpg" alt="Prudvi">
+    </div>
+</div>
+
+<!-- About -->
+<div id="about" class="section">
+    <h1>About Me — Full Stack Python Developer</h1> <br>
+    <p>
+        I am a Full Stack Python Developer with a B.E / B.Tech degree from <br>
+        <b>Gopalan College of Engineering and Management, Bangalore</b>. <br>
+        I enjoy building complete web applications by combining clean <br>
+        front-end design with strong back-end logic. 
+        <br><br>
+        I have successfully developed the <b>Digital College Portal</b>, <br>
+        a full-featured college management website, and worked on <br>
+        data-driven projects such as <b>Play Store Analysis</b> and <br>
+        <b>E-commerce Sales Analysis</b>.
+        <br><br>
+        <b>Front-End:</b> I create responsive and user-friendly interfaces using <br>
+        HTML, CSS, and JavaScript, focusing on clean layouts, usability, <br>
+        and consistent design across devices.
+        <br><br>
+        <b>Back-End:</b> I build secure and scalable applications using <br> 
+        Python and Django, develop REST APIs, manage databases with MySQL, <br>
+        and perform data analysis using NumPy and Pandas. <br>
+    </p>
+
+    <img src="https://i.ytimg.com/vi/aW9JI9ckVXY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAQ3SlVTdsg74Fdt1IKO_CtcdxzxQ" alt="skills Image" id="skill-Image">
+
+    <h2 style="margin-top:40px;">Skills</h2>
+
+    <table class="skills-table">
+        <tr>
+            <th>Category</th>
+            <th>Technologies & Tools</th>
+        </tr>
+
+        <tr>
+            <td>Front-End</td>
+            <td>HTML5, CSS3, JavaScript (ES6+), Responsive Design</td>
+        </tr>
+
+        <tr>
+            <td>Back-End</td>
+            <td>Python, Django, Django REST Framework, REST APIs</td>
+        </tr>
+
+        <tr>
+            <td>Database</td>
+            <td>MySQL</td>
+        </tr>
+
+        <tr>
+            <td>Data & Analysis</td>
+            <td>NumPy, Pandas</td>
+        </tr>
+
+        <tr>
+            <td>Development Tools</td>
+            <td>
+                Visual Studio Code, Chrome DevTools, PyCharm , Jupyter Notebook, 
+                 Git, GitHub,
+            </td>
+        </tr>
+    </table>
+</div>
+
+<!-- Projects -->
+<div id="projects" class="section">
+    <h1>Projects</h1>
+
+    <div class="project-wrapper">
+
+        <!-- Project 1 (Left) -->
+        <div class="project-card">
+            <img src="https://media.istockphoto.com/id/1159030397/vector/vector-of-a-child-a-boy-looking-at-the-stairs-leading-to-the-door-of-modern-digital-world.jpg?s=612x612&w=0&k=20&c=cPMvHwuxLy3rWZaHzhiXY_TFZXkl0KGp-wHGFA8vak4="
+                 alt="Digital College Portal">
+
+            <div class="project-content">
+                <h2>Digital College Portal</h2>
+
+                <h4>Tools Used</h4>
+                <p>
+                    HTML, CSS, JavaScript<br>
+                    Python, Django<br>
+                    MySQL, SQLite3
+                </p>
+
+                <h4>Description</h4>
+                <p>
+                    A full-stack college management web application developed using Django,
+                    MySQL, HTML, CSS, and JavaScript.The project provides a structured 
+                    college website with dynamic pages such as departments,
+                    infrastructure, contact, and an online admission system.
+                    It includes form validation, secure data handling, and 
+                    database integration to manage student admission details
+                    efficiently. The website follows a reusable template 
+                    structure and responsive UI design for better user experience.
+                </p>
+            </div>
+        </div>
+
+        <!-- Project 2 (Right) -->
+        <div class="project-card">
+            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Data_Visualization_Tools.jpg"
+                 alt="EDA Google Play Store Project">
+
+            <div class="project-content">
+                <h2>EDA - Google Play Store Project</h2>
+
+                <h4>Tools Used</h4>
+                <p>
+                    Python<br>
+                    NumPy, Pandas
+                </p>
+
+                <h4>Description</h4>
+                <p>
+                    This project focuses on Exploratory Data Analysis of the Google
+                    Play Store dataset. It analyzes app ratings, installs, pricing,
+                    and categories to identify trends and patterns using NumPy
+                    and Pandas.
+                </p>
+            </div>
+        </div>
+
+        <!-- Project 3 (Centered next row) -->
+        <div class="project-card project-center">
+            <img src="https://pce.sandiego.edu/wp-content/uploads/2022/03/usd-pce-data-analytics-visualization.jpeg"
+                 alt="E-commerce Sales Analysis">
+
+            <div class="project-content">
+                <h2>E-commerce Sales Analysis</h2>
+
+                <h4>Tools Used</h4>
+                <p>
+                    Python<br>
+                    NumPy, Pandas
+                </p>
+
+                <h4>Description</h4>
+                <p>
+                    This project analyzes e-commerce sales data to understand
+                    customer purchasing behavior, revenue trends, and product
+                    performance. Using NumPy and Pandas, the analysis helps
+                    identify high-performing products and sales patterns that
+                    support better business decisions.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="experience" class="section experience-section">
+
+    <h1 class="exp-title">Experience</h1>
+
+    <!-- Experience 1 -->
+    <h2 class="role">Full-Stack Python Developer <span>(Project)</span></h2>
+    <h3 class="project">Digital College Management System</h3>
+    <p class="duration">2026 - Present</p>
+
+    <p class="point">Developed a full-stack college website using HTML, CSS, and JavaScript, Django, Python, MySQL</p>
+    <p class="point">Implemented an online admission form with frontend and backend validation</p>
+    <p class="point">Stored and managed student admission data using Django ORM</p>
+    <p class="point">Designed reusable templates using <b>Template Inheritance</b> for consistent UI</p>
+    <p class="point">Handled form errors, validations, and server-side debugging</p>
+    <p class="point">Improved user experience with responsive UI design</p>
+
+    <p class="tech">Technologies: Django, Python, MySQL, HTML, CSS, JavaScript</p>
+
+
+    <!-- Experience 2 -->
+    <h2 class="role">Data Analyst <span>(Project)</span></h2>
+    <h3 class="project">Google Play Store Data Analysis</h3>
+
+    <p class="point">Performed exploratory data analysis (EDA) on Google Play Store dataset</p>
+    <p class="point">Cleaned and processed data using Pandas and NumPy</p>
+    <p class="point">Analyzed app ratings, installs, reviews, and category trends</p>
+    <p class="point">Identified user behavior patterns and market trends</p>
+
+    <p class="tech">Tools: Python, Pandas, NumPy</p>
+
+
+    <!-- Experience 3 -->
+    <h2 class="role">Data Analyst <span>(Project)</span></h2>
+    <h3 class="project">E-commerce Sales Analysis</h3>
+
+    <p class="point">Analyzed e-commerce sales data to identify revenue trends</p>
+    <p class="point">Performed data cleaning and transformation using Pandas</p>
+    <p class="point">Calculated KPIs such as total sales, monthly growth, and category performance</p>
+    <p class="point">Extracted actionable insights for business decision-making</p>
+
+    <p class="tech">Tools: Python, Pandas, NumPy</p>
+
+</div>
+
+<!-- Certificates -->
+<div id="certificates" class="section">
+    <h1>Certificates</h1>
+    <ul>
+        <li>Python Programming</li>
+        <li>Django Web Development</li>
+        <li>Data Analysis with Python</li>
+    </ul>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div>Developed by Prudvi</div>
+        <div>&copy; 2026 Prudvi</div>
+    </div>
+</footer>
+
+<!-- Simple JavaScript -->
+<script>
+    function hideAll() {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("projects").style.display = "none";
+        document.getElementById("experience").style.display = "none";
+        document.getElementById("certificates").style.display = "none";
+    }
+
+    function showHome() {
+        hideAll();
+        document.getElementById("home").style.display = "block";
+    }
+
+    function showAbout() {
+        hideAll();
+        document.getElementById("about").style.display = "block";
+    }
+
+    function showProjects() {
+        hideAll();
+        document.getElementById("projects").style.display = "block";
+    }
+
+    function showExperience() {
+        hideAll();
+        document.getElementById("experience").style.display = "block";
+    }
+
+    function showCertificates() {
+        hideAll();
+        document.getElementById("certificates").style.display = "block";
+    }
+</script>
+
+</body>
+</html>
